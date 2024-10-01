@@ -1,0 +1,11 @@
+﻿string inputanswer = ("yes");
+string input;
+int n = 0;
+do
+{
+    Console.WriteLine("Do you want to continue?");
+    input = Console.ReadLine();
+    n++;
+} while (input == inputanswer && n<3);
+
+
