@@ -1,0 +1,7 @@
+﻿Console.WriteLine("Enter numbers:");
+int sum = 0;
+while (int.TryParse(Console.ReadLine(), out int n))
+{
+    sum += n;
+}
+Console.WriteLine($"Sum:{sum}");
